@@ -1,9 +1,12 @@
+# Ecrire un script Python qui lit 3 entiers et affiche le maximum et le minimum.
+
 entiers = []
 
 for i in range(1, 4):
     entier = int(input(f'entrez le nombre {i}: '))
     entiers.append(entier)
-      
+    
+print(entiers)      
 max_entier = entiers[0]
 min_entier = entiers[0]
 
@@ -15,3 +18,4 @@ for i in entiers[1:]:
         
 print(f'le minimum entier est: {min_entier} ')
 print(f'le maximum entier est: {max_entier} ')
+
