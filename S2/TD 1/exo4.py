@@ -13,6 +13,8 @@ def is_perfect_square(n):
     root = isqrt(n)
     return root * root == n
 
+# Test Cases
+
 print(is_perfect_square(25)) # True
 print(is_perfect_square(3))  # False
 print(is_perfect_square(19)) # False
