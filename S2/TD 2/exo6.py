@@ -40,19 +40,18 @@ def fun2(n, a=0, b=0):
     return fun2(n - 1, a, b)
 
 """ 
-Fonction sum(n : entier) : entier
+Fonction fun3(n: entier) : entier
+Variables
+Debut
     Si n = 0 Alors
-        Retourner 0
+        Retourner 1
     Sinon
-        Retourner abs(n) + sum(n+1)
-    FinSi
+        Retourner fun3(n-1) * 2
 FinFonction 
 """
 
-def sum_recursion(n):
+def fun3(n):
     if n == 0:
-        return 0
-    if n > 0:
-        return abs(n) + sum_recursion(n - 1) # n-1 to prevent infinite recursion calls
-    return abs(n) + sum_recursion(n + 1) # for negative numbers
+        return 1
+    return fun3(n - 1) * 2
 
