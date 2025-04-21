@@ -5,6 +5,7 @@ def power(base, exponent=2):
     return base ** exponent
 
 # 2 Test Cases
-print(power(5))
-print(power(base=3, exponent=4))
-print(power(2, exponent=5))
+if __name__ == "__main__":
+    print(power(5))
+    print(power(base=3, exponent=4))
+    print(power(2, exponent=5))
