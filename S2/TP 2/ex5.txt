@@ -1,0 +1,2 @@
+TD1: https://github.com/PySocietyHub/AlgoPy-S1S2/tree/master/S2/TD%201
+TD2: https://github.com/PySocietyHub/AlgoPy-S1S2/tree/master/S2/TD%202
