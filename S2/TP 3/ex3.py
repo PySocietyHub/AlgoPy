@@ -1,8 +1,10 @@
+import random
+
 def quick_sort(l):
     if len(l) <= 1: # Base Case
         return l
     
-    pivot = l[-1] # choosing the pivot as the last list item (not the best practice)
+    pivot = random.choice(l) # randome pivot choice
     
     left = [num for num in l[:-1] if num <= pivot] # left list contains numbers that are smaller than the pivot
     right = [num for num in l[:-1] if num > pivot] # left list contains numbers that are bigger than the pivot
